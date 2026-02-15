@@ -1,5 +1,5 @@
 -- PATCH_ID: 20260101010101__create_users_table.sql
-
+-- PATCH_TYPE: DATA
 -- Create users table for FinPOS
 CREATE TABLE IF NOT EXISTS users (
     user_id SERIAL PRIMARY KEY,
