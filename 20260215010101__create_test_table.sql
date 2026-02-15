@@ -1,0 +1,9 @@
+-- PATCH_ID: 20260215010101_create_test_table
+-- PATCH_TYPE: SCHEMA
+-- SNAPSHOT_TABLES: test_table
+
+CREATE TABLE IF NOT EXISTS test_table (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
