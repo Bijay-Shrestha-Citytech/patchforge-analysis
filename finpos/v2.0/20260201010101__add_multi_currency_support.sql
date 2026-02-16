@@ -1,3 +1,7 @@
+-- PATCH_ID: 20260201010101__add_multi_currency_support
+-- PATCH_TYPE: MIXED
+-- SNAPSHOT_TABLES: users
+
 -- Create currencies table
 CREATE TABLE IF NOT EXISTS currencies (
     currency_id SERIAL PRIMARY KEY,
