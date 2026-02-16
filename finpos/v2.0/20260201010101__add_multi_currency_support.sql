@@ -1,4 +1,4 @@
--- PATCH_ID: 20260101010101__create_users_table
+-- PATCH_ID: 20260201010101__add_multi_currency_support
 -- PATCH_TYPE: SCHEMA
 -- SNAPSHOT_TABLES: users
 
