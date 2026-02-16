@@ -1,3 +1,7 @@
+-- PATCH_ID: 20260101010101__create_users_table
+-- PATCH_TYPE: SCHEMA
+-- SNAPSHOT_TABLES: users
+
 -- Create currencies table
 CREATE TABLE IF NOT EXISTS currencies (
     currency_id SERIAL PRIMARY KEY,
