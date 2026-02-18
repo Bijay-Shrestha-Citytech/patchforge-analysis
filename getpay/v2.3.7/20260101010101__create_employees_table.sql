@@ -1,5 +1,5 @@
 -- PATCH_ID: 20260101010101__create_employees_table
--- PATCH_TYPE: SCHEMA
+-- PATCH_TYPE: DATA
 -- SNAPSHOT_TABLES: employees
 
 -- Create employees table
